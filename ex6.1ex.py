@@ -7,5 +7,5 @@ palavras = ('Mario', 'luigi', 'Peach', 'Yoshi')
 for palavra in palavras:
   print('\nPalavra: {}. Vogais:'.format(palavra.upper()), end='')
   for letra in palavra:
-    if letra.lower() in 'aeiou':
+    if letra.lower() in 'a':
       print(letra.upper(), end=' ')

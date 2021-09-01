@@ -64,6 +64,8 @@ while True:
     jogadas.append([j1, j2])
     resultados = vencedor(j1, j2)
 
-print('Numero de vitória do Jogador 1: {}'.format(resultados[0]))
-print('Numero de vitória do Jogador 2: {}'.format(resultados[1]))
-print('Numero de Empate: {}'.format(resultados[2]))
+    
+if len(resultados) > 0:
+  print('Numero de vitória do Jogador 1: {}'.format(resultados[0]))
+  print('Numero de vitória do Jogador 2: {}'.format(resultados[1]))
+  print('Numero de Empate: {}'.format(resultados[2]))
