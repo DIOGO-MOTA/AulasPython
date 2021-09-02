@@ -32,3 +32,6 @@ while True:
 
 listaOrdenada = sorted(lista, key=lambda item: item['codigo'])
 print(listaOrdenada)
+
+
+ 

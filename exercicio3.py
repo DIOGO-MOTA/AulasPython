@@ -33,11 +33,12 @@ while True:
     cadastra(doador, valor, ru)
     
 if len(listaSorteio) > 0:
- print('Lista de doadores: {}'.format(listaSorteio))    
- print('O vencedor(a) foi: {}'.format(sorteio()))
+  print('Lista de doadores: {}'.format(listaSorteio))    
+  print('O vencedor(a) foi: {}'.format(sorteio()))
 else:
-    print('Programa finalizado...')
+  print('Programa finalizado...')
 
 
-
+#função valida_int para validar os dados de entrarda.
+#variavel op, decide se programa para ou continua no laço.
 
